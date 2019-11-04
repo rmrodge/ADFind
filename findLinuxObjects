@@ -1,0 +1,1 @@
+adfind -b "dc=domain,dc=com" -f "(&("objectCategory=computer")("operatingSystemVersion=lin*"))" name -csv > servers.csv
